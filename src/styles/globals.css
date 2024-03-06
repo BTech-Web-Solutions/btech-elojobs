@@ -2,6 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: "baloo";
+  font-style: normal;
+  font-weight: 400;
+  src: local("Baloo Bhai"),
+    url(https://fonts.cdnfonts.com/s/14539/BalooBhai-Regular.woff)
+      format("woff");
+}
 :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
